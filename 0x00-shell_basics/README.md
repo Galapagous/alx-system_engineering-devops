@@ -12,3 +12,4 @@
 11. ls -al . .. /boot: List all files including the one that start with period and many more.
 12. print file type.
 13. ln -s /bin/ls __ls__: create a symbolic link to /bin/ls in the current working directory.
+14. cp -nu *.html: copy all new html file from the current working directory to the parent working directory.
