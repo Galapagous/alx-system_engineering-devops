@@ -10,3 +10,4 @@
 9. rm -r /tmp/my_first_directory: remove the directory my_first_directory in /tmp.
 10. cd -:change the current directory to the prevoius one.
 11. ls -al . .. /boot: List all files including the one that start with period and many more.
+12. print file type.
