@@ -8,4 +8,4 @@
 7. mv /tmp/betty /tmp/my_first_directory: move the file betty from /tmp to /tmp/my_first_directory.
 8. rm /tmp/my_first_directory/betty: remove the file betty from tmp/my_first_directory.
 9. rm -r /tmp/my_first_directory: remove the directory my_first_directory in /tmp.
-10. cd ..: change the current directory to the prevoius one.
+10. cd -: change the current directory to the prevoius one.
