@@ -11,3 +11,4 @@
 10. cd -:change the current directory to the prevoius one.
 11. ls -al . .. /boot: List all files including the one that start with period and many more.
 12. print file type.
+13. ln -s /bin/ls __ls__: create a symbolic link to /bin/ls in the current working directory.
