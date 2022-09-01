@@ -6,3 +6,4 @@ ls -la: Display all content including hidden files starting with .files in long 
 ls -lna: Display current directory content.
 mkdir /tmp/my_first_directory: Create a directory name my_first_directory inside directory tmp.
 mv /tmp/betty /tmp/my_first_directory: move the file betty from /tmp to /tmp/my_first_directory.
+rm /tmp/my_first_directory/betty: remove the file betty from tmp/my_first_directory.
