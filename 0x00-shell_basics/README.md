@@ -15,3 +15,4 @@
 14. cp -nu *.html: copy all new html file from the current working directory to the parent working directory.
 15. mv [[:upper:]]* /tmp/u: move al l the files that begins with a capital letter to the /tmp/u.
 16. rm *~: remove all file that end with the symbol ~.
+17. mkdir -p welcome/to/school: create the directories welcome/, welcome/to/, welcome/to/school/ in the current directory.
