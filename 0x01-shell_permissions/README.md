@@ -10,3 +10,4 @@ i. whoami: To print the effective username of the current user.
 9. chmod 753 hello: set the permission of the file hello to rwxr-x-wx.
 10. chmod --reference=olleh hello: set the mode of the file hello same as the olleh mode.
 11. chmod ugo+x */: add executable permission to all subdirectories of the current directory, group and user.
+12. mkdir -m 751 my_dir: script to create a directory with permission 751 called my_dir.
