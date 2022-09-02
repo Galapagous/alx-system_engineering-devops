@@ -7,3 +7,4 @@ i. whoami: To print the effective username of the current user.
 6. chmod ug+x,o+r hello: add execute permission to owner and group owner while read permission to other userfor the file hello.
 7. chmod ugo+x hello: add executeable permission to wner, group owner and other user of the file hello.
 8. chmod 007 hello: set the file hello to, no permission, no permission all permission.
+9. chmod 753 hello: set the permission of the file hello to rwxr-x-wx.
