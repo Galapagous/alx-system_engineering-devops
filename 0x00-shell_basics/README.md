@@ -13,3 +13,4 @@
 12. print file type.
 13. ln -s /bin/ls __ls__: create a symbolic link to /bin/ls in the current working directory.
 14. cp -nu *.html: copy all new html file from the current working directory to the parent working directory.
+15. mv [[:upper:]]* /tmp/u: move al l the files that begins with a capital letter to the /tmp/u
