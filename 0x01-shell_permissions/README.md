@@ -14,3 +14,4 @@ i. whoami: To print the effective username of the current user.
 13. chgrp school hello: change the group for the file hello to school.
 14. chown vincent:staff *: change the owner to vincent and group owner to staff for all files in the directory.
 15. chown -h vincent:staff _hello:change the owner and group owner of hello to vincent and staff respectively.
+16. chown --from=guilluame betty hello: change the ownership of hello to betty if its own by guilluame.
