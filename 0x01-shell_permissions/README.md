@@ -13,3 +13,4 @@ i. whoami: To print the effective username of the current user.
 12. mkdir -m 751 my_dir: script to create a directory with permission 751 called my_dir.
 13. chgrp school hello: change the group for the file hello to school.
 14. chown vincent:staff *: change the owner to vincent and group owner to staff for all files in the directory.
+15. chown -h vincent:staff _hello:change the owner and group owner of hello to vincent and staff respectively.
