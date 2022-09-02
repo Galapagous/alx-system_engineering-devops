@@ -4,3 +4,4 @@ i. whoami: To print the effective username of the current user.
 3. chown betty hello: change the owner of the file hello to betty.
 4. touch hello: create an empty file.
 5. chmod u+x hello :Add execute permission to the owner of the file hello.
+6. chmod ug+x,o+r hello: add execute permission to owner and group owner while read permission to other userfor the file hello.
