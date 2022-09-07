@@ -9,4 +9,4 @@
 18. grep '^[[:alpha:]]': display all the line in the file /etc/ssh/sshd_config.
 19. tr Ac Ze: replace all character Ac fro input to Ze respectively.
 20. tr -d 'cC'
-21. Rev: reverse all input.
+21. rev: reverse all input.
