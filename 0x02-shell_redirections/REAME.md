@@ -5,3 +5,4 @@
 4. tail /etc/passwd: to print the last 10 line of the directory.
 5. head /etc/passwd: to print the first 10 line of the directoru.
 6. head -n 3 iacta: to display the third line of the file iacta.
+17. grep -v bin /etc/passwd: display all the lines in the files that do not contain the pattern bin
