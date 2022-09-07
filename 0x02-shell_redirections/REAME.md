@@ -10,3 +10,4 @@
 19. tr Ac Ze: replace all character Ac fro input to Ze respectively.
 20. tr -d 'cC'
 21. rev: reverse all input.
+22. cut -d':' -f 1,6 /etc/passwd | sort: displays all users and their home directories sorted by users.
