@@ -10,3 +10,4 @@
 9. echo $(($POWER / $DIVIDE)):power divide by divide.
 10. echo $(($BREATH**$LOVE)): print the result of BREATH to power of POWER.
 11. echo $((2#$BINARY)): convert a number from base 2 to base 10.
+12. echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo".: print possible combination of small letters from a to z excluding the letter oo.
