@@ -4,3 +4,4 @@
 3. echo $PATH | tr ':' '\n' | wc -l: count the number of directories in the path
 4. printenv: script to print the global variables.
 5. set: list local variables.
+6. BEST="School": create a local variable.
