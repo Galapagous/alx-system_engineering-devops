@@ -6,3 +6,4 @@
 5. set: list local variables.
 6. BEST="School": create a local variable.
 7. export BEST="School": setting or creating a global variable.
+8. echo $(( 128 + $TRUEKNOWLEDGE)): display the result of 128 and the variable stured as TRUEKNOWLEDGE.
