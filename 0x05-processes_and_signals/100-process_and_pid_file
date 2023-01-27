@@ -1,0 +1,19 @@
+#!/bin/bash
+#create a file myscript.pid containing process id inside var/run
+#Display till infinity and beyound indefinately
+#Display i hate the kill command each time it recieve a SIGTERM signal
+#Display Y U no love me when it recieve a SIGINT signal
+#Delete the file /var/run/myscript when it recieve a SIGQUIT or SIGTERM signal
+terminate(){
+	rm /var/run/myscript.pid
+	exit
+	}
+
+echo "$$" > var/run/myscript
+
+while true do
+	echo "Till infinity and beyound"
+	sleep 2
+	trap 'echo "Y U no love me?!"' SIGINT
+	trap 'echo "I hate the kill command" terminator' SIGTERM
+	trap 'terminator' SIGQUIT
