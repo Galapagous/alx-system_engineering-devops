@@ -1,0 +1,3 @@
+#!/bin/bash
+#Kill the process 7-highlander
+pkill -f -SIGKIL 7-highlander

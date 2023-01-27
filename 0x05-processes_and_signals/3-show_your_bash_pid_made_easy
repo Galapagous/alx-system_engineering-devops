@@ -1,0 +1,4 @@
+#!/bin/bash
+#Display all running process that has the keyword bash
+#Without using the keyword ps
+pgrep bash -l

@@ -1,0 +1,10 @@
+#!/bin/bash
+#DIsplay to infinity and beyound
+#sleep 2 in each iteration
+#Display i am invinsible when recieve a SIGTERM
+while true
+do
+	echo "To infinity and beyound"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done

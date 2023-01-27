@@ -1,0 +1,3 @@
+#!/bin/bash
+#kill the process 4_to_infinity_and_beyound
+pkill -f 4_to_infinity_and_beyound
