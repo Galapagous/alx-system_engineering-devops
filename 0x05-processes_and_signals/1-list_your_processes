@@ -1,0 +1,4 @@
+#!/bin/bash
+# Display all currently running processes
+
+echo "ps -aux"
